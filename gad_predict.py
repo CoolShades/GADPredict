@@ -11,7 +11,7 @@ def parse_input(value):
     
 # Load your model
 model = xgb.Booster()
-model.load_model("fitted_model_final")
+model.load_model("fitted_model_final.model")
 
 # Streamlit app title
 st.title("XGBoost Model Prediction for Cardiac Biomarkers")
